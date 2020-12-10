@@ -1,5 +1,7 @@
 ## AV bypass generator for py2exe
 
+![https://n0a.pw/content/images/2020/12/meter_run.png](https://n0a.pw/content/images/2020/12/meter_run.png)
+
 This tool was written to generate .py files for compilation into an .exe file using py2exe. 
 Testing has shown that meterpreter coded in this way successfully bypasses static and dynamic analysis of windows defender.
 For build the .exe file, you need a Windows machine with Python 2.7 installed and the py2exe module.
