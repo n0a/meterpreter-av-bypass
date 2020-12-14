@@ -4,7 +4,7 @@
 
 if [ -n "$1" ]; then
 	if test -f "$1"; then
-		echo "[+] File exist $1 exists."
+		echo "[+] File $1 exists."
 			NAME=$(echo $1 | sed -n 's/^\(.*\/\)*\(.*\)/\2/p' | sed 's/\.[^.]*$//' | sed 's/\./_/') 
 			if [ -d $NAME ]; then
 				echo "[-] Directory $NAME exists. Cleanup first."
