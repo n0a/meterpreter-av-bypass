@@ -1,6 +1,6 @@
 ## AV bypass generator for py2exe
 
-![https://n0a.pw/content/images/2020/12/meter_run.png](https://n0a.pw/content/images/2020/12/meter_run.png)
+![https://iili.io/0Ef7b2.png](https://iili.io/0Ef7b2.png)
 
 This tool was written to generate .py files for compilation into an .exe file using py2exe. 
 Testing has shown that meterpreter coded in this way successfully bypasses static and dynamic analysis of windows defender.
@@ -17,4 +17,6 @@ Based on [pymemimporter](https://github.com/n1nj4sec/pymemimporter) that allows 
 - Run `make.bat`
 - Your encoded payload in dist/shell.exe
 
-**Для русскоязычной аудитории:** [**https://n0a.pw/meterpreter-av-bypass**](https://n0a.pw/meterpreter-av-bypass)
+Video - [view](https://disk.yandex.ru/i/6kx9x58vjP26wQ)
+
+**Для русскоязычной аудитории:** [**https://xakep.ru/2020/12/23/shikata-ga-nai/**](https://xakep.ru/2020/12/23/shikata-ga-nai/)
